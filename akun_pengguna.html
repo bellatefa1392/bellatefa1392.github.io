@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Akun Pengguna</title>
+</head>
+<body>
+    <header>
+        <h1>"Artify - Akun Pengguna"</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="akun_pengguna.html">Akun Saya</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Profil Pengguna</h2>
+        <form id="profileForm">
+            <label for="username">Nama Pengguna:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="address">Alamat Pengiriman:</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <button type="submit">Simpan Perubahan</button>
+        </form>
+
+        <h2>Lukisan Favorit</h2>
+        <div class="favorite-paintings">
+            <div class="painting">
+                <img src="Lukisan Potret.jpg" alt="Lukisan Potret">
+                <p>Lukisan Potret</p>
+            </div>
+            <div class="painting">
+                <img src="pemandangan alam.jpg" alt="Pemandanga alam">
+                <p>Pemandangan alam</p>
+            </div>
+            <div class="painting">
+                <img src="Lukisan Angsa.jpg" alt="Lukisan Angsa">
+                <p>Pemandangan alam</p>
+            </div>
+            <!-- Tambahkan lebih banyak lukisan favorit di sini -->
+        </div>
+
+        <h2>Riwayat Pesanan</h2>
+        <table>
+            <tr>
+                <th>ID Pesanan</th>
+                <th>Tanggal</th>
+                <th>Status</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>009</td>
+                <td>2025-06-01</td>
+                <td>Selesai</td>
+                 <td>60.000</td>
